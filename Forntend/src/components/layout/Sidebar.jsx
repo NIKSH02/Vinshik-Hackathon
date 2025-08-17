@@ -54,11 +54,9 @@ const Sidebar = () => {
       {/* Logo */}
       <div className={`${isCollapsed ? 'p-4 flex justify-center' : 'p-6'} transition-all duration-300`}>
         <div className={`flex items-center ${isCollapsed ? 'justify-center' : 'gap-2'}`}>
-          <div className={`${isCollapsed ? 'w-10 h-10' : 'w-8 h-8'} bg-teal-500 rounded-lg flex items-center justify-center transition-all duration-300`}>
-            <span className={`text-white font-bold ${isCollapsed ? 'text-lg' : 'text-sm'}`}>V</span>
-          </div>
+          
           {!isCollapsed && (
-            <span className="text-xl font-bold opacity-100 transition-opacity duration-300">
+            <span className="text-5xl font-bold opacity-100 transition-opacity duration-300">
               <span className="text-teal-500">Vin</span><span className="text-gray-900">Shik</span>
             </span>
           )}
